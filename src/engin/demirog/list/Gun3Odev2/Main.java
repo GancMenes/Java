@@ -27,7 +27,7 @@ public class Main {
 
 
 
-        UserManager userManager = new UserManager();
+        UserManager userManager = new InstructorManager();
         userManager.attendance(user1);
         userManager.delete(user2);
 

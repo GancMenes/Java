@@ -1,6 +1,6 @@
 package engin.demirog.list.Gun3Odev2;
 
-public class InstructorManager {
+public class InstructorManager extends UserManager{
 
     public void add(Instructor instructor){
         System.out.println("Yeni kullanıcı eklendi " + instructor.getName());
